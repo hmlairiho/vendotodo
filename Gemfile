@@ -13,13 +13,12 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bootstrap-sass', '~> 3.2.0'
-gem "paperclip", "~> 4.2"
 
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'	
 end
 
-group :deployment, :test do
+group :development, :test do
 	gem 'sqlite3'
 end

@@ -1,0 +1,33 @@
+@import "bootstrap";
+
+body {
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+.navbar-default {
+	background-color: #EFEFEB;
+}
+
+.navbar-default .navbar-brand{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color:#959ab2;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0090ff;
+}
+
+.center{
+	text-align: center;
+}
+
+.col-md-3:nth-child(4n+1) {
+	clear:left;
+}
